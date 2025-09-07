@@ -16,9 +16,6 @@ An elegant, modern web application for learning Japanese Kanji characters with b
 - **Interactive Animations**: Smooth hover effects, 3D transforms, and particle animations
 - **Accessibility**: Semantic HTML and keyboard navigation support
 
-## 🚀 Live Demo
-
-[View Live Demo](https://your-username.github.io/japanese-flashcards) *(Replace with your actual GitHub Pages URL)*
 
 ## 📋 Prerequisites
 
