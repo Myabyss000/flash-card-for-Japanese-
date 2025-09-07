@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "日",
+    "meaning": "day",
+    "readings": ["にち", "ひ"]
+  },
+  {
+    "kanji": "月",
+    "meaning": "month",
+    "readings": ["げつ", "つき"]
+  },
+  {
+    "kanji": "水",
+    "meaning": "water",
+    "readings": ["すい", "みず"]
+  },
+  {
+    "kanji": "火",
+    "meaning": "fire",
+    "readings": ["か", "ひ"]
+  },
+  {
+    "kanji": "木",
+    "meaning": "tree",
+    "readings": ["もく", "き"]
+  },
+  {
+    "kanji": "金",
+    "meaning": "gold",
+    "readings": ["きん", "かね"]
+  },
+  {
+    "kanji": "土",
+    "meaning": "earth",
+    "readings": ["ど", "つち"]
+  },
+  {
+    "kanji": "人",
+    "meaning": "person",
+    "readings": ["じん", "ひと"]
+  },
+  {
+    "kanji": "大",
+    "meaning": "big",
+    "readings": ["だい", "おお"]
+  },
+  {
+    "kanji": "小",
+    "meaning": "small",
+    "readings": ["しょう", "ちい"]
+  }
+]

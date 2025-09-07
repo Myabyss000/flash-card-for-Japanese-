@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn Japanese kanji with interactive flashcards">
+    <meta name="theme-color" content="#667eea">
+    <title>Japanese Flashcards - Learn Kanji</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>日</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <h1>Japanese Flashcards</h1>
+        <p class="subtitle">Master 100 N5 Level Kanji Characters</p>
+
+        <div class="stats-bar">
+            <div class="stat-item">📚 100 Kanji</div>
+            <div class="stat-item">🎯 N5 Level</div>
+            <div class="stat-item">💾 Auto-Save</div>
+            <div class="stat-item">🎨 Beautiful UI</div>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="progress-text">Progress: <span id="progress-percent">1%</span></div>
+        </div>
+
+        <div id="card-counter">Card 1 of 100</div>
+
+        <div class="flashcard">
+            <div class="level-badge">N5</div>
+            <div id="kanji-display" class="kanji"></div>
+            <div id="answer-display" class="answer hidden">
+                <p><strong>Meaning:</strong> <span id="meaning"></span></p>
+                <p class="reading-category emphasized">
+                    <strong>🔵 Kun'yomi (Japanese reading):</strong>
+                    <span id="kunyomi-readings" class="kunyomi-text"></span>
+                </p>
+                <p class="reading-category">
+                    <strong>🔴 On'yomi (Chinese reading):</strong>
+                    <span id="onyomi-readings" class="onyomi-text"></span>
+                </p>
+                <div class="reading-info">
+                    <small>💡 Kun'yomi readings are native Japanese pronunciations</small><br>
+                    <small>📚 On'yomi readings came from Chinese characters</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="previous">Previous</button>
+            <button id="show-answer">Show Answer</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

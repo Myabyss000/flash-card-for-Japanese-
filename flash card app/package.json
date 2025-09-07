@@ -1,0 +1,45 @@
+{
+  "name": "japanese-flashcards",
+  "version": "1.0.0",
+  "description": "An elegant web application for learning Japanese Kanji with beautiful animations and interactive features",
+  "main": "app.js",
+  "scripts": {
+    "start": "python server.py",
+    "dev": "python server.py",
+    "demo": "python demo.py",
+    "build": "echo 'No build step required for this static site'",
+    "test": "echo 'No tests specified yet'",
+    "lint": "echo 'Linting not configured yet'",
+    "preview": "python -m http.server 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/japanese-flashcards.git"
+  },
+  "keywords": [
+    "japanese",
+    "kanji",
+    "flashcards",
+    "learning",
+    "education",
+    "language",
+    "web-app",
+    "html5",
+    "css3",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/japanese-flashcards/issues"
+  },
+  "homepage": "https://github.com/your-username/japanese-flashcards#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
+}
